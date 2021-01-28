@@ -77,7 +77,7 @@ class App extends  Component{
        <h2 className="App"> Search the values of Status in the search input</h2>
        <br></br>
        <input type="text" value={this.state.value} onChange={this.onChangeHandle.bind(this)} placeholder="search.." style={
-         {float:'right',width:'25%',borderColor:'#000'}
+         {float:'right',width:'25%'}
        } />
          <BootstrapTable
          columns={this.state.columns} 
